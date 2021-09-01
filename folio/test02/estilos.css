@@ -1,0 +1,270 @@
+       
+       /* Estilos basicos de la pagina (fondo) */
+body{
+
+   background-image: url("imagen/1.jpg");
+   /*background-image: url("imagen/1.webp");*/
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed ;
+   
+   color: white;
+
+   z-index: auto;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+}
+
+
+         /* Top de la pagina  (logo) */
+
+#top{
+   width: 1250px;
+   height: 300px;
+   background-color: #101266;
+   opacity: 0.8;
+
+   border-radius: 170px 0px 170px 0px;
+   margin-left: 10%;
+   box-shadow: 15px 15px 20px #6C6EEA;
+}
+
+         /* Texto de introduccion */
+
+#intro{
+   width: 90%;
+   height: 600px;
+   margin-left: 70px;
+   margin-top: 5%;
+
+   text-align: center ;
+   font-size: 50px;
+}
+
+         /* menu */
+
+#navbar{
+   width: 610px;
+   height: 55px;
+   margin-left: 30%;
+   background-color: whitesmoke;
+   box-shadow: 15px 15px 10px grey;
+}         
+
+#navbar a{
+   width: 200px;
+   line-height:50px;
+  
+   padding: 0px;
+   float: left;
+
+
+   text-decoration: none;
+   color: black;
+   
+   text-align: center;
+   display:block;   
+}
+
+#navbar a:hover{
+   font-size: 30px;
+}
+
+.sticky {
+   position: fixed;
+   top: 0;
+   width: 100%;
+ }
+ 
+.sticky + .content {
+   padding-top: 60px;
+ }
+
+
+      /* Ofertas */
+
+#offer {
+   width: 100%;
+   height: 500px;
+
+}
+
+#img {
+   width: 300px;
+   height: 300px;
+   margin-left: 15%;
+   float: left;
+
+}
+
+#txt{
+   width: 750px;
+   height: 400px;
+
+   float: right;
+   font-size: 20px;
+   margin-right: 15%;
+
+   text-align: justify;
+}
+
+      /* Beneficios */
+
+#beneficts {
+   width: 100%;
+   height: 500px;
+}
+
+#img2 {
+   width: 300px;
+   height: 300px;
+   margin-right: 15%;
+   float: right;
+
+}
+
+#txt2{
+   float: left;
+   width: 750px;
+   height: 400px;
+
+   font-size: 20px;
+   margin-left: 15%;
+   text-align: justify;
+}
+
+
+
+                     /* Servicios */
+
+#serv1{
+border: 1px solid white;
+border-radius: 15px;
+width: 900px;
+height: 300px;
+background-color: grey;
+opacity: 0.5;
+margin-left: 20%;
+
+margin-top: 35px;
+}       
+
+#sub1 {
+   width: 850px;
+   height: 100px;
+   margin-left: 15px;
+   opacity: 1;
+}
+
+#serv1 #sub1 h2 {
+   float: left;
+   margin-left: 150px;
+   margin-top: 40px;
+}
+
+#sub2 {
+   opacity: 1;
+   width: 850px;
+   height: 200px;
+   margin-left: 15px;
+}
+
+#serv1 #sub2 p {
+   font-size: 25px;
+   text-align: justify;
+
+   margin-top: 50px;
+}
+                     
+
+               
+
+                     /* Mi Equipo */
+
+#box{
+   border: 1px solid greenyellow;
+   width: 1400px;
+   height: 400px;
+}                     
+
+img{
+   width: 300px;
+   height: 300px;  
+   float: left;
+   margin: 45px;
+}
+
+#nombre{
+   width: 900px;
+   float: left;
+   margin-left: 25px;
+   margin-top: 100px;
+}
+
+
+#link{
+   width: 550px;
+   height: 55px;
+   margin-left: 40%;
+   
+
+   font-size: 20px;
+}         
+
+#link a{
+   width: 200px;
+   line-height:50px;
+
+   border-radius: 25px;
+
+   background-color: whitesmoke;
+
+   padding: 0px;
+   margin: 15px;
+   float: left;
+
+
+   text-decoration: none;
+   color: black;
+   
+   text-align: center;
+   display:block;   
+}
+
+#link a:hover{
+   font-size: 30px;
+}
+
+
+         /* Contacto */
+
+#nota{
+   border: 1px solid white;
+   width: 1250px;
+   height: 300px;
+   background-color: red;
+   opacity: 0.3;
+
+   margin-top: 25px;
+   margin-left: 10%;
+}
+
+#disclamer{
+   width: 1250px;
+   height: 200px;
+   text-align: center;
+
+   margin-top: -220px;
+   margin-left: 10%;
+}
+
+#formulario{
+   border: 1px solid white;
+   text-align: center;
+}
+#formulario input {
+
+   align-items: center;
+}

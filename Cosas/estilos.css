@@ -1,0 +1,87 @@
+/*   inicio del codigo standar  */
+:root {
+    --fondo:#ba90ff;
+    --letra:black;
+}
+
+html{
+    font-size: 62,5%;
+    box-sizing: border-box;
+}
+
+body{
+font-size: 16px;  /* 1rem = 10px */
+
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+
+/* final del codigo standar */
+
+.box{
+    border: 1px solid black;
+    width: 98%;
+    height: 95vh;
+    
+    margin: 1rem;
+    background-color: var(--fondo);
+    color: var(--letra);
+}
+.box h2{
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+    .box{
+        width: 90%;
+        height: 95vh;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 820px){
+    .box{
+        width: 95%;
+        height: 95vh;
+
+    }
+}
+
+@media only screen and (min-width: 821px)  and (max-width: 1100px){
+    .box{
+        width: 97%;
+        height: 95vh;
+    }
+}
+
+
+/*----------------------------------------------------------------------------*/
+nav{
+    display: grid;
+    grid-template-columns: 150vh;
+	grid-template-rows: 5rem 5rem 5rem 5rem ;
+	row-gap: 20px;
+
+    
+}
+
+.menu{
+    border: 1px solid black;
+    text-decoration: none;
+    color: var(--letra);
+    padding-top: 2rem;
+}
+
+.menu:hover{
+    color: white;
+    animation: hoover 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hoover{
+    from {background-color:var(--fondo);}
+    to {background-color: black}
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueba</title>
+    
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+            <!-- imagen de la modelo -->
+    <div id="p1">
+
+    </div>
+
+            <!-- nombre de la modelo -->
+
+    <div id="t1">
+        <h1>Gianna Valeria</h1>
+    </div>
+
+            <!-- menu lateral de las redes sociales -->
+
+    <div id="rs">
+        <a href="#"><img src="imagenes/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="imagenes/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="imagenes/linkedin.png" alt="Linkedin"></a>
+        <a href="#"><img src="imagenes/twitter.png" alt="Twitter"></a>
+    </div> 
+
+            <!-- texto de presentacion -->
+    <div id="presentacion">
+        <h2><em>Nombre:</em> Gianna Valeria</h2> <br>
+        <h2><em>Apellido:</em> Hernandez Rossi</h2> <br>
+        <h2><em>Edad:</em> 21</h2><br>
+        <h2><em>Fecha de Nacimiento:</em> 23 / 06 / 2000 </h2> <br>
+        <h2><em>Nacionalidad:</em> Venezolana</h2>
+
+    </div>
+    
+            <!-- link a la galeria -->
+
+    <div id="t2">
+            <h1>Galeria</h1>
+    </div>
+            <!-- div que controla las imagenes de la marquesina -->
+
+    <a href="galeria.html">
+        <div id="m">
+            <img class="mySlides" src="imagenes/11.jpeg" />
+            <img class="mySlides" src="imagenes/30.jpeg" />
+            <img class="mySlides" src="imagenes/39.jpeg" />
+            <img class="mySlides" src="imagenes/37.jpeg" />
+        </div>
+    </a>
+
+    <div id="s1">
+        
+    </div>
+
+    <div id="s1p">
+        <p>Quienquiera que seas, sospecho con temor que caminas por los senderos de los sueños,
+            Temo que estas realidades ilusorias se desvanezcan bajo tus pies y entre tus manos,
+            Desde ahora tus facciones, alegrías, lenguaje, casa, negocio, modales, molestias, locuras, traje, se separan de tí,
+            se me aparecen tu alma y tu cuerpo verdaderos,
+            se apartan de negocios, comercio, tiendas, trabajo, granja, casa, compra, venta, comer, beber, sufrimiento, muerte.
+            </p>
+    </div>
+
+    <div id="s2">
+
+    </div>
+
+    <div id="s2p">
+        <p>Quienquiera que seas, pongo sobre tí mis manos para que seas mi poema,
+            te murmuro al oído:
+            he amado a muchas mujeres y a muchos hombres, pero a nadie he amado tanto como a tí.
+            </p>
+    </div>
+    
+    <div id="s3">
+
+    </div>
+
+    <div id="s3p">
+        <p>Oh, he sido tardo y mudo,
+            debí haberme abierto camino hacia tí hace mucho tiempo,
+            no debí haber proclamado a nadie sino a tí, no debí haber cantado a nadie sino a tí.
+            </p>
+    </div>
+
+    <div id="s4">
+
+    </div>
+
+    <div id="s4p">
+        <p>Lo abandonaré todo y vendré, y cantaré himnos en tu honor,
+            nadie te ha comprendido, pero yo te comprendo,
+            nadie te ha justificado, y tú no te has justificado tampoco,
+            no hay nadie que no te haya encontrado imperfecto, sólo yo no hallo en tí imperfecciones,
+            no hay nadie que no haya querido esclavizarte, yo soy el único que no aceptará tu servidumbre,
+            yo soy el único que no te impone señor, ni dueño, ni superior, ni Dios, fuera de los que hay intrínsicamente en tí mismo.
+            </p>
+    </div>
+
+
+
+    <div id="footer">
+
+        <h3>enviame un mensaje, quiero conocerte</h3>
+        
+        <form action="https://formspree.io/f/xknpldzk" method="Post">
+            <input type="text" id="fname" name="nombre" placeholder="nombre"><br>
+            <input type="text" id="lname" name="apellido" placeholder="apellido"><br>
+            <input type="email" id="email" name="email" placeholder="email"><br>
+            <textarea name="contenido" id="contenido" cols="30" rows="10" placeholder="contenido"></textarea>
+            
+            <br><button>enviar</button>
+        </form>
+    </div>
+
+
+
+
+
+    <script>    
+    var myIndex = 0;
+    carousel();
+    
+        //funcion que controla el cambio de imagenes de la marquesina
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // cambia la imagen cada 2 segundos
+    }
+    </script>
+
+</body>
+</html>

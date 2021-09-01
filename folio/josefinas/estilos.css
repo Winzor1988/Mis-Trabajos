@@ -1,0 +1,341 @@
+html{
+  font-size: 65.5%;
+}
+
+body{
+  font-size: 16px;
+  font-family: 'STIX Two Text', serif;
+}
+
+
+/* TITULO */
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+#img{
+  width: 16rem;
+  height: 25rem;
+  float: left;
+}
+
+#img img{
+  height: 250px;
+}
+
+#titulo{
+  background-image: url("imagen/bandera.png");
+  background-size: 129rem 25rem;
+  background-repeat: no-repeat;
+
+    width: 129rem;
+    height: 25rem;
+
+
+  margin-bottom: 2.5rem;
+
+    text-align: center;
+float: right;
+
+}
+
+#titulo h1{
+    padding-top: 9rem;
+    font-size: 5.5rem;
+    line-height: 0.3;
+}
+
+#titulo h2{
+    line-height: 0.1;
+    font-size: 2.5rem;
+}
+
+                                                            /* End Titulo */
+
+
+
+
+
+
+                                                                /* MENU */
+
+
+#navbar{
+float: left;
+overflow: hidden;
+margin-top: 4.5rem;
+}
+
+#navbar a{
+    border: 1px solid black;
+
+    display: block;
+    width: 13rem;
+    height: 3.5rem;
+
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+
+    text-decoration: none;
+    color: black;
+
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+#navbar a:hover{
+    background-color: grey;
+    opacity: 0.8;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width:15rem;
+  }
+  
+.sticky + .content {
+    padding-top: 1rem;
+}
+
+
+                                                         /* End Menu */
+
+
+
+
+                                                         /* CUERPO */
+#cuerpo{
+    margin-left: 15.5rem;
+    margin-right: 10rem;
+    padding-top: 27.5rem;
+}
+
+#tn{
+  width: 120rem;
+  height: 40rem;
+
+  margin-top: 2.5rem;
+  margin-left: 5.5rem;
+}
+
+#tn1{
+  width: 120rem;
+  height: 52rem;
+
+  margin-top: 2.5rem;
+  margin-left: 5.5rem;
+
+  margin-bottom: 2.5rem;
+
+}
+
+
+#img1 img {
+  width: 18rem;
+  height: 18rem;
+  float: right;
+}
+
+#img2 img {
+  width: 18rem;
+  height: 18rem;
+  float: left;
+}
+
+
+#topo1{
+  width: 120rem;
+  height: 18rem;
+  border: 1px solid black;
+
+  text-align: center;
+}
+
+#topo1 h1{
+  padding-top: 6rem;
+}
+
+#mino1{
+  width: 120rem;
+  height: 30rem;
+
+  text-align: justify;
+}
+
+
+#topo{
+  width: 120rem;
+  height: 5rem;
+  border: 1px solid black;
+
+  text-align: center;
+
+}
+
+#mino{
+    width: 120rem;
+    height: 37rem;
+
+    text-align: justify;
+}
+
+
+/* * {box-sizing:border-box} */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 110rem;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -2.2rem;
+  padding: 1.6rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 0.3rem 0 0 0.3rem;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  position: absolute;
+  bottom: 0.8rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.2rem;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+                                                         /* End Cuerpo */ 
+
+
+#redes{
+    width: 85%;
+    height: 20rem;
+    text-align: center;
+
+    margin-left: 6rem;
+
+}
+
+#redes a{
+    border: 1px solid black;
+
+    display: inline-block;
+    width: 13rem;
+    height: 3.5rem;
+
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+
+    text-decoration: none;
+    color: black;
+}
+
+#redes a:hover{
+    background-color: grey;
+    opacity: 0.8;
+}
+
+#correo{
+    width: 85%;
+    height: 25rem;
+    text-align: center;
+
+    margin-left: 6rem;
+
+}
+
+
+#correo input {
+    float: left;
+    width: 25rem;
+    height: 1.5rem;
+
+    margin-left: 25rem;
+
+}
+
+#correo textarea {
+    float: right;
+    width: 25rem;
+    height: 11rem;    
+    
+    margin-top: -12rem;
+    margin-right: 25rem;
+}
